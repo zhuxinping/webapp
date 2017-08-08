@@ -2,31 +2,31 @@
 
 ## webpack
 '''
-$ npm install webpack webpack-dev-server
+$ yarn add webpack webpack-dev-server -dev
 
 '''
 ## babel
 '''
-$ npm install babel-core babel-loader babel-preset-es2015
+$ yarn add babel-core babel-loader babel-preset-es2015
 babel-preset-stage-0 babel-preset-react css-loader
-style-loader less less-loader html-webpack-plugin -D
+style-loader less less-loader html-webpack-plugin -dev
 
 '''
 ## react
 '''
-$ npm install react redux react-redux react-router-dom -S
+$ yarn add react redux react-redux react-router-dom -save
 
 
 '''
 ## fetch
 '''
-$ npm install es6-promise whatwg-fetch
+$ yarn add es6-promise whatwg-fetch -dev
 
 '''
 ## express
 
 '''
-$ npm install express -S
+$yarn add express -S
 
 '''
 ## scripts
