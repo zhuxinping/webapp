@@ -14,7 +14,7 @@ style-loader less less-loader html-webpack-plugin -dev
 '''
 ## react
 '''
-$ yarn add react redux react-redux react-router-dom -save
+$ yarn add react redux react-redux react-router-dom react-dom -save
 
 
 '''
@@ -34,5 +34,10 @@ $yarn add express -S
 "start","webpack-dev-server --port 5000 --open --progress --colors"
 "build","webpack -p"
 '''
-
-
+## 目录结构
+- components 组件 木偶组件
+-containers  页面组件
+    -Home
+        - subpage 智能组件
+        - index.js
+-index.js用来控制显示哪一个页面
